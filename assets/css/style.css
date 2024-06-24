@@ -1,18 +1,5 @@
 /* Global Styles */
-@font-face {
-    font-family: 'anavioSmCap';
-    src: url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff2') format('woff2'),
-         url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'anavioRg';
-    src: url('css/fonts/anavio_w01_regular-webfont.woff2') format('woff2'),
-         url('css/fonts/anavio_w01_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
 }
 * {
@@ -20,16 +7,32 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+@font-face {
+    font-family: "anavioSmCap";
+    src: url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff2') format('woff2'),
+         url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: "anavioRg";
+    src: url('css/fonts/anavio_w01_regular-webfont.woff2') format('woff2'),
+         url('css/fonts/anavio_w01_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 html,
+
+
 body {
+	
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100vh;
 	height: 100dvh; /* this fixes white bar at bottom in some mobile screens */
 	overflow: auto;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'anavioSmCap', 'anavioRg', "Segoe UI", Roboto,
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "anavioSmCap", "anavioRg", "Segoe UI", Roboto,
 		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	scroll-behavior: smooth;
 }
@@ -228,18 +231,19 @@ footer {
 footer h1 {
 	color: #dfe0e1;
 	font-size: 0.55em;
+	font-family: "anavioRg",
 	padding: 1em 0;
 }
 
 footer a {
 	color: #dfe0e1;
-	font-family: 'anavioRg',
+	font-family: "anavioRg",
 	font-weight: lighter;
 	text-decoration: underline;
 }
 
 footer a:hover {
-	font-family: 'anavioRg',
+	font-family: "anavioRg",
 	color: #d7ae7c;
 	font-size: 1.025em;
 }
