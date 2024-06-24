@@ -1,0 +1,21 @@
+{
+  "name": "makes-and-mods",
+  "version": "1.0.0",
+  "description": "Freelance website for makes and mods",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server",
+    "browser-sync": "browser-sync start --server --files \"**/*.html\" \"**/*.css\" \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabienbrocklesby/Freelance-MakesandMods-Website.git"
+  },
+  "author": "https://github.com/fabienbrocklesby",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/fabienbrocklesby/Freelance-MakesandMods-Website/issues"
+  },
+  "homepage": "https://github.com/fabienbrocklesby/Freelance-MakesandMods-Website#readme"
+}
