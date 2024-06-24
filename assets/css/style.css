@@ -28,11 +28,11 @@ body {
 }
 
 #parallax {
-	transition: background-position 0.2s ease-in-out;
+	transition: background-position 0.1s ease-out;
 }
 
 #fastScroll {
-	transition: margin-top 0.2s ease-in-out;
+	transition: margin-top 0.1s ease-out;
 }
 
 /* Page Styles */
