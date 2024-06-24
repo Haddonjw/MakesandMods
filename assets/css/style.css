@@ -1,12 +1,4 @@
 /* Global Styles */
-
-
-}
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
 @font-face {
     font-family: "anavioSmCap";
     src: url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff2') format('woff2'),
@@ -21,6 +13,14 @@
          url('css/fonts/anavio_w01_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 html,
 
 
