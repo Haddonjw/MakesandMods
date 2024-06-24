@@ -230,19 +230,19 @@ footer {
 footer h1 {
 	color: #dfe0e1;
 	font-size: 0.55em;
-	font-family: 'anavioSmCap',
+	font-family: 'anavioSmCap';
 	padding: 1em 0;
 }
 
 footer a {
 	color: #dfe0e1;
-	font-family: 'anavioSmCap',
+	font-family: 'anavioSmCap';
 	font-weight: lighter;
 	text-decoration: underline;
 }
 
 footer a:hover {
-	font-family: 'anavioSmCap',
+	font-family: 'anavioSmCap';
 	color: #d7ae7c;
 	font-size: 1.025em;
 }
