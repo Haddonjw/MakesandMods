@@ -28,11 +28,15 @@ body {
 }
 
 #parallax {
-	transition: background-position 0.1s ease-out;
+	/* transition: background-position 0.2s ease-out; */
+	transition: .15s ease-in-out;
+transition-property: background-position;
 }
 
 #fastScroll {
-	transition: margin-top 0.1s ease-out;
+	/* transition: margin-top 0.2s ease-out; */
+	transition: .15s ease-in-out;
+transition-property: background-position;
 }
 
 /* Page Styles */
@@ -204,13 +208,13 @@ footer {
 }
 
 footer h1 {
-	color: #ffffff;
+	color: #ffffff00;
 	font-size: 0.75em;
 	padding: 1em 0;
 }
 
 footer a {
-	color: #ffffff;
+	color: #ffffff00;
 	font-weight: bolder;
 	text-decoration: underline;
 }
