@@ -1,4 +1,20 @@
 /* Global Styles */
+@font-face {
+    font-family: 'anavioSmCap';
+    src: url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff2') format('woff2'),
+         url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'anavioReg';
+    src: url('css/fonts/anavio_w01_regular-webfont.woff2') format('woff2'),
+         url('css/fonts/anavio_w01_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 * {
 	margin: 0;
 	padding: 0;
