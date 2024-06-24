@@ -1,20 +1,5 @@
 /* Global Styles */
-@font-face {
-    font-family: "anavioSmCap";
-    src: url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff2') format('woff2'),
-         url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: "anavioRg";
-    src: url('css/fonts/anavio_w01_regular-webfont.woff2') format('woff2'),
-         url('css/fonts/anavio_w01_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 * {
 	margin: 0;
 	padding: 0;
@@ -70,6 +55,22 @@ transition-property: background-position;
 	text-align: center;
 	overflow-x: hidden;
 	margin-bottom: -40vh;
+}
+@font-face {
+    font-family: "anavioSmCap";
+    src: url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff2') format('woff2'),
+         url('css/fonts/anavio_small_capitals_w01_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "anavioRg";
+    src: url('css/fonts/anavio_w01_regular-webfont.woff2') format('woff2'),
+         url('css/fonts/anavio_w01_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @media (max-width: 600px) {
@@ -229,19 +230,19 @@ footer {
 footer h1 {
 	color: #dfe0e1;
 	font-size: 0.55em;
-	font-family: "anavioRg",
+	font-family: 'anavioSmCap',
 	padding: 1em 0;
 }
 
 footer a {
 	color: #dfe0e1;
-	font-family: "anavioRg",
+	font-family: 'anavioSmCap',
 	font-weight: lighter;
 	text-decoration: underline;
 }
 
 footer a:hover {
-	font-family: "anavioRg",
+	font-family: 'anavioSmCap',
 	color: #d7ae7c;
 	font-size: 1.025em;
 }
